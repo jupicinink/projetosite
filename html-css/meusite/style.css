@@ -1,0 +1,46 @@
+/* no caso de class se usa . e no caso de id se usa # */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 1800px;
+}
+.conteiner{
+    background-color: teal;
+    width: 700px;
+    color: #fff;
+
+
+    
+    margin: 50px;
+    /* padding é o espaçamento interno*/ 
+    padding: 30px;
+
+    border: 5px solid #0000;
+    position: static;
+}
+
+/* o PAI é o relatve e o FILHO é o absolute, sempre!!!!s*/
+.area{
+    border: 5px solid green;
+    position: relative;
+    width: 650px;
+    height: 350px;
+    text-align: center;
+}
+
+.area-absolute{
+    position: absolute;
+    text-align: center;
+    border: 5px solid rebeccapurple;
+}
+
+.area-fixed{
+    position:fixed;
+    background-color: darkorange;
+}
+
+.area-sticky{
+    
+}
